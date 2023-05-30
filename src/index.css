@@ -1,0 +1,11 @@
+@font-face{
+    font-family:shabnam ;
+    src: url("../public/font/Shabnam.ttf");
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    direction: rtl;
+    font-family: shabnam;
+}
