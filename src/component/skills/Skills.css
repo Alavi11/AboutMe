@@ -1,6 +1,7 @@
 .skill{
     width: 100%;
-    height: 500px;
+    height: 90vh;
+    background-color: rgba(0, 10, 27, 0.83);
 }
 a{
     color: #fff;
