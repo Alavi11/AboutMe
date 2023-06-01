@@ -11,7 +11,40 @@ a{
 .projects{
     width: 50%;
     height: 100%;
-    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.projects ul{
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+}
+.projects ul li{
+    width: 200px;
+    height: 20%;
+    background-color: #bababa;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.projects ul li a{
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: show 2s;
+    background-color: rgb(255, 255, 0);
+    width: 100%;
+    height: 100%;
 }
 .technology{
     width: 50%;
@@ -40,7 +73,6 @@ a{
     width: 200px;
     height: 50%;
     color : black;
-    font-weight: bold;
     background-color: #bababa;
     margin-bottom: 10px;
     display: flex;
@@ -68,35 +100,249 @@ a{
     z-index: 1;
     right: -100%;
     border-radius: 20px;
-    background-color: aqua;
+    background-color: rgb(255, 225, 0);
 }
 
 .front{
     position: absolute;
-    animation: showfront 1.5s;
     right: 20%;
 }
 .back{
     position: absolute;
-    animation: showback 1.5s;
     left: 20%;
 }
 
-@keyframes showfront {
+
+
+#html{
+    animation: html 2s;
+    right: -10% ;
+}
+#css{
+    animation: css 2s;
+    right: -10% ;
+}
+#flex{
+    animation: flex 2s;
+    right: -20% ;
+}
+#sass{
+    animation: sass 2s;
+    right: -30% ;
+}
+#tailwind{
+    animation: tailwind 2s;
+    right: -80% ;
+}
+#readux{
+    animation: readux 2s;
+    right: -50% ;
+}
+#type{
+    animation: type 2s;
+    right: -70% ;
+}
+
+#js{
+    animation: js 2s;
+    right: -20% ;
+}
+#react{
+    animation: react 2s;
+    right: -20% ;
+}
+#api{
+    animation: api 2s;
+    right: -10% ;
+}
+#mongo{
+    animation: mongo 2s;
+    right: -30% ;
+}
+#my{
+    animation: my 2s;
+    right: -60% ;
+}
+#sql{
+    animation: sql 2s;
+    right: -60% ;
+}
+#express{
+    animation: express 2s;
+    right: -50% ;
+}
+#node{
+    animation: node 2s;
+    right: -40% ;
+}
+
+
+@keyframes show {
+    0% {
+        width: 0;
+        height: 0;
+    }
+
+    100% {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+@keyframes html {
     0% {
         right: -100%;
     }
 
     100% {
-        right: 20%;
+        right: -10%;
     }
 }
-@keyframes showback {
+@keyframes css {
     0% {
-        left: -100%;
+        right: -100%;
     }
 
     100% {
-        left: 20%;
+        right: -10%;
     }
+}
+@keyframes flex {
+    0% {
+        right: -100%;
+    }
+
+    100% {
+        right: -20% ;
+
+    }
+}
+@keyframes sass {
+    0% {
+        right: -100%;
+    }
+
+    100% {
+        right: -30%;
+    }
+}
+@keyframes tailwind {
+    0% {
+        right: -100%;
+    }
+
+    100% {
+        right: -80%;
+    }
+}
+@keyframes readux {
+    0% {
+        right: -100%;
+    }
+
+    100% {
+        right: -50%;
+    }
+}
+@keyframes type {
+    0% {
+        right: -100%;
+    }
+
+    100% {
+        right: -70%;
+    }
+}
+
+@keyframes js {
+    0% {
+        right: -100%;
+    }
+
+    100% {
+        right: -20%;
+    }
+}
+@keyframes react {
+    0% {
+        right: -100%;
+    }
+
+    100% {
+        right: -20%;
+    }
+}
+@keyframes api {
+    0% {
+        right: -100%;
+    }
+
+    100% {
+        right: -10%;
+    }
+}
+@keyframes mongo {
+    0% {
+        right: -100%;
+    }
+
+    100% {
+        right: -30%;
+    }
+}
+@keyframes sql {
+    0% {
+        right: -100%;
+    }
+
+    100% {
+        right: -60%;
+    }
+}
+@keyframes my {
+    0% {
+        right: -100%;
+    }
+
+    100% {
+        right: -60%;
+    }
+}
+@keyframes express {
+    0% {
+        right: -100%;
+    }
+
+    100% {
+        right: -50%;
+    }
+}
+@keyframes node {
+    0% {
+        right: -100%;
+    }
+
+    100% {
+        right: -40%;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width:1440px) {
+    .technology div{
+        flex-wrap: nowrap;
+        overflow-y: scroll;
+    }
+    .front{
+        width: 100%;
+    }
+    .back{
+        width: 100%;
+    }
+
 }
