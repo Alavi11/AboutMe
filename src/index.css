@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .bg-right{
+        background: url('../public/img/1.jpg') top center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .menuli:hover .firstch{
+        color: #fff;
+    }
+    .menuli:hover .lastch{
+        color: #149ddd;
+    }
+}
+
+@font-face{
+    font-family:shabnam ;
+    src: url("../public/font/Shabnam.ttf");
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: shabnam;
+}
