@@ -38,7 +38,7 @@ export const skills = [
     },
     {
         name:"Express",
-        percent:30
+        percent:40
     },
     {
         name:"MongoDB",
@@ -46,7 +46,7 @@ export const skills = [
     },
     {
         name:"SQL and My Sql",
-        percent:30
+        percent:40
     },
 ]
 
