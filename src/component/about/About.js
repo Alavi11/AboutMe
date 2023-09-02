@@ -13,7 +13,7 @@ const About = () => {
     })
 
 
-  return <div className='w-full h-[400vh] pt-5 overflow-hidden' id='about'>
+  return <div className='w-full h-[315vh] pt-5 overflow-hidden' id='about'>
             <h1 className='text-blue-950 text-3xl  ml-3 w-12 h-14 border-b-[3px] border-b-[#149ddd]'>About</h1>
             <p data-aos="fade-left" className='mt-7 ml-3 w-[95%]'>
             Hello <br></br>
@@ -50,9 +50,6 @@ const About = () => {
                             })
                         }
                 </div>
-            </div>
-            <div className='w-full h-screen'>
-
             </div>
   </div>
 }
