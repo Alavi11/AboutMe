@@ -4,7 +4,7 @@
 
 @layer utilities{
     .bg-right{
-        background: url('../public/img/1.jpg') top center;
+        background: url('../public/img/bg.png') top center;
         background-size: cover;
         background-attachment: fixed;
     }

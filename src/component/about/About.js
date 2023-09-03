@@ -4,6 +4,7 @@ import {skills} from "./Data"
 import Progressbar from './Progressbar';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import Project from '../project/Project';
 
 const About = () => {
 
@@ -13,20 +14,24 @@ const About = () => {
     })
 
 
-  return <div className='w-full h-[315vh] pt-5 overflow-hidden' id='about'>
+  return <div className='w-full h-[290vh] br5:h-[220vh]  br2:h-[200vh] br4:px-20 pt-5 br4:pt-24 overflow-hidden' id='about'>
             <h1 className='text-blue-950 text-3xl  ml-3 w-12 h-14 border-b-[3px] border-b-[#149ddd]'>About</h1>
             <p data-aos="fade-left" className='mt-7 ml-3 w-[95%]'>
             Hello <br></br>
             I am Ehsan Alavi
-            I got my math diploma from Izadi High School in Qom.<br></br>
-            I am currently studying computer science in the bachelor's degree.<br></br>
-            I love programming and my work because I create anything I want from nothing.<br></br>
+            I got my math diploma from Izadi High School in Qom.<br className='br2:hidden'></br>
+            I am currently studying computer science in the bachelor's degree.<br className='br2:hidden'></br>
+            I love programming and my work because I create anything I want from nothing.<br  className='br2:hidden'></br>
             I love solving puzzles and mind games like mafia.
             </p>
-            <div  className='w-full'>
-                <img data-aos="fade-right" src='../../../img/profile2.JPG' className='h-80 w-[90%] ml-[5%] mt-5'/>
-                <div>
-                    <h1  data-aos="fade-right" className='text-blue-950 text-3xl mt-8 ml-3'>Web Developer</h1>
+            <div  className='w-full br5:flex'>
+                <div className='h-80 w-full mt-5 flex justify-center br5:w-1/2 br5:pl-3 br5:h-96 '>
+                    <img data-aos="fade-right" src='../../../img/profile2.JPG' className='h-full w-[302.5px]
+                    br0:w-[400px] br0:h-[400px] br5:full br5:w-[310px] br2:w-[370px]'/>
+                </div>
+   
+                <div className='br0:mt-24 br5:w-1/2 br5:mt-0'>
+                    <h1  data-aos="fade-right" className='text-blue-950 text-3xl mt-8 ml-3 br5:mt-4'>Web Developer</h1>
                     <p data-aos="fade-right" className='mt-1 ml-3 w-[95%]'>
                         I have been working as a self-taught programmer for 2 years
                     </p>
@@ -41,9 +46,9 @@ const About = () => {
                     </ul>
                 </div>
             </div>
-            <div className='w-full h-[110vh] bg-blue-50'>
+            <div className='w-full br5:bg-white  h-[110vh] bg-blue-50'>
                 <h1 className='text-blue-950 text-3xl mt-8 ml-3 w-12 h-14 border-b-[3px] border-b-[#149ddd]'>Skills</h1>
-                <div className='mt-5 w-full h-[83%] px-[2.5%] flex flex-col-reverse justify-between '>
+                <div className='mt-5 w-full br2:flex-row br2:flex-wrap h-[83%] px-[2.5%] flex flex-col-reverse justify-between'>
                         {
                             skills.map(item => {
                                 return <Progressbar percent = {item.percent} name={item.name}/>

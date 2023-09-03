@@ -4,11 +4,15 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {
-      backgroundImage: {
-        'hero-pattern': "url('./public/img/1.jpg')"
-      }
-    },
+    screens: {
+      'br0': '425px',
+      'br1': '580px',
+      'br5': '600px',
+      'br2': '768px',
+      'br3': '850px',
+      'br4': '1024px',
+
+    }
   },
   plugins: [],
 }

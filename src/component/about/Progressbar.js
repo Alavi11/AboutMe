@@ -13,7 +13,7 @@ const Progressbar = ({percent,name}) => {
         width: `${percent}%`,
     }
 
-  return <div className='w-[95%] h-16 overflow-hidden'>
+  return <div className='w-[95%] br2:w-[45%] h-16 overflow-hidden'>
             <div className='flex'>
                 <p className='w-1/2'>{name}</p>
                 <p className='w-1/2 flex justify-end'>{percent}%</p>
