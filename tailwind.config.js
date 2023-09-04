@@ -12,8 +12,7 @@ module.exports = {
       'br3': '850px',
       'br4': '1024px',
       'br7': '1245px',
-      'br6': '1629px',
-
+      'br6': '1245px',
     }
   },
   plugins: [],
