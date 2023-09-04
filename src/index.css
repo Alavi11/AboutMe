@@ -7,12 +7,17 @@
         background: url('../public/img/bg.png') top center;
         background-size: cover;
         background-attachment: fixed;
+        background-color: #999;
+        background-blend-mode: multiply;
     }
     .menuli:hover .firstch{
         color: #fff;
     }
     .menuli:hover .lastch{
         color: #149ddd;
+    }
+    .ltr{
+        direction: rtl;
     }
 }
 

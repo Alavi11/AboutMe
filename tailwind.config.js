@@ -11,6 +11,8 @@ module.exports = {
       'br2': '768px',
       'br3': '850px',
       'br4': '1024px',
+      'br7': '1245px',
+      'br6': '1629px',
 
     }
   },
