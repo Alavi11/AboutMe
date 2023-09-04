@@ -12,7 +12,7 @@ const Project = () => {
     })
 
 
-  return <div className='w-full h-[130vh] br2:h-[100vh] br4:pt-24 pt-5 overflow-x-hidden br4:px-0' id='projects'>
+  return <div className='w-full h-[800px] br2:h-[700px] br4:pt-24 pt-5 overflow-x-hidden br4:px-0' id='projects'>
             <h1  data-aos="fade-left" className='text-blue-950 text-3xl  ml-3 w-12 h-14 border-b-[3px] border-b-[#149ddd]'>Projects</h1>
             <h3  data-aos="fade-right" className='ml-3 mt-5'>Hint : to see any project click on title</h3>
             <div className='w-full h-[80%] br2:h-[50%] flex flex-col-reverse br2:flex-row flex-wrap justify-around px-5 br2:mt-8'>
