@@ -14,7 +14,7 @@ const About = () => {
     })
 
 
-  return <div className='w-full h-[2700px] br2:h-[1900px] br4:px-20 pt-5 br4:pt-24 overflow-hidden' id='about'>
+  return <div className='w-full h-[2700px] br2:h-[1900px] br6:h-[2000px] br4:px-20 pt-5 br4:pt-24 overflow-hidden' id='about'>
             <h1 className='text-blue-950 text-3xl  ml-3 w-12 h-14 border-b-[3px] border-b-[#149ddd]'>About</h1>
             <p data-aos="fade-left" className='mt-7 mb-10 ml-3 w-[95%]'>
             Hello <br></br>
