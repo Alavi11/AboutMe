@@ -31,10 +31,13 @@ export const skills = [
         name:"Type Script",
         percent:30
     },
-    
     {
         name:"Node Js",
         percent:50
+    },
+    {
+        name:"Nest Js",
+        percent:40
     },
     {
         name:"Express",
