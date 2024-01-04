@@ -24,6 +24,10 @@ export const skills = [
         percent:80
     },
     {
+        name:"Nxst Js",
+        percent:40
+    },
+    {
         name:"Redux",
         percent:30
     },
@@ -34,10 +38,6 @@ export const skills = [
     {
         name:"Node Js",
         percent:50
-    },
-    {
-        name:"Nest Js",
-        percent:40
     },
     {
         name:"Express",
