@@ -17,6 +17,10 @@ const Project = () => {
             <h3  data-aos="fade-right" className='ml-3 mt-5'>Hint : to see any project click on title</h3>
             <div className='w-full h-[80%] br2:h-[50%] flex flex-col-reverse br2:flex-row flex-wrap justify-around px-5 br2:mt-8'>
                 <div data-aos="fade-right" className='br2:w-1/2'>
+                    <a className='flex items-center' href='https://github.com/Alavi11/Amlak'><BsCircleFill className='text-[10px] mr-1 text-[#149ddd]'/><p className='text-2xl'>Estate</p></a>
+                    <p className='ml-6 max-w-xs'>React, TypeScript, Tailwind, Axios are is used in the front part of the project and Node and Express are used in the back part of the project.<br/>Routing and login sections and registration and restriction of routes have been done in this project</p>
+                </div>
+                <div data-aos="fade-right" className='br2:w-1/2'>
                     <a className='flex items-center' href='https://cafe-gamma.vercel.app'><BsCircleFill className='text-[10px] mr-1 text-[#149ddd]'/><p className='text-2xl'>Cafe</p></a>
                     <p className='ml-6 max-w-xs'>React Js , REDUX , HTML , Css are used in this app</p>
                 </div>
