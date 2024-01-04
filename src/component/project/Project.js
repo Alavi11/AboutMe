@@ -20,10 +20,6 @@ const Project = () => {
                     <a className='flex items-center' href='https://github.com/Alavi11/Amlak'><BsCircleFill className='text-[10px] mr-1 text-[#149ddd]'/><p className='text-2xl'>Estate</p></a>
                     <p className='ml-6 max-w-xs'>React, TypeScript, Tailwind, Axios are is used in the front part of the project and Node and Express are used in the back part of the project.<br/>Routing and login sections and registration and restriction of routes have been done in this project</p>
                 </div>
-                <div data-aos="fade-right" className='br2:w-1/2'>
-                    <a className='flex items-center' href='https://cafe-gamma.vercel.app'><BsCircleFill className='text-[10px] mr-1 text-[#149ddd]'/><p className='text-2xl'>Cafe</p></a>
-                    <p className='ml-6 max-w-xs'>React Js , REDUX , HTML , Css are used in this app</p>
-                </div>
                 <div data-aos="fade-left" className='br2:w-1/2'>
                     <a className='flex items-center' href='https://my-resturant-tawny.vercel.app/'><BsCircleFill className='text-[10px] mr-1 text-[#149ddd]'/><p className='text-2xl'>My Resturant</p></a>
                     <p className='ml-6 max-w-xs'>my resturant is resposive website and I using Sass , Css and html </p>
