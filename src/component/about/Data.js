@@ -24,7 +24,7 @@ export const skills = [
         percent:80
     },
     {
-        name:"Nxst Js",
+        name:"Next Js",
         percent:40
     },
     {
