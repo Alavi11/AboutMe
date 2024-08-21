@@ -24,7 +24,7 @@ const Right = () => {
               <Typewriter
                     onInit={(typewriter) => {
                         typewriter
-                            .typeString("Full Stack")
+                            .typeString("React and Node")
                             .start();
                     }}
               />

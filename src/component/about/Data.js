@@ -24,32 +24,40 @@ export const skills = [
         percent:80
     },
     {
-        name:"Next Js",
-        percent:40
+        name:"Type Script",
+        percent:60
     },
     {
         name:"Redux",
         percent:30
     },
     {
-        name:"Type Script",
+        name:"Reciol",
         percent:30
     },
     {
+        name:"React Query",
+        percent:30
+    },
+    {
+        name:"Axios",
+        percent:70
+    },
+    {
         name:"Node Js",
-        percent:50
+        percent:80
     },
     {
         name:"Express",
-        percent:40
+        percent:60
     },
     {
         name:"MongoDB",
         percent:30
     },
     {
-        name:"SQL and My Sql",
-        percent:40
-    },
+        name:"jwt",
+        percent:50
+    }
 ]
 
