@@ -20,7 +20,7 @@ const Right = () => {
   return <div className="w-full h-full relative bg-right" id='home'>
         <div className='br1:left-[20%] br2:left-[25%] br3:left-[32%]  br4:top-[43%] absolute top-1/3 left-[10%] flex flex-col items-start text-white'>
             <p className='text-4xl'>Ehsan Alavi</p>
-            <p className='text-2xl ml-[3px] flex justify-start w-72'>i'm <span className='ml-2 text-2xl border-b-[2.5px] border-[#149ddd]'>
+            <p className='text-2xl ml-[3px] flex justify-start w-80'>i'm <span className='ml-2 text-2xl border-b-[2.5px] border-[#149ddd]'>
               <Typewriter
                     onInit={(typewriter) => {
                         typewriter
