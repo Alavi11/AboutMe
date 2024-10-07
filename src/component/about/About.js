@@ -14,7 +14,7 @@ const About = () => {
     })
 
 
-  return <div className='w-full h-[2700px] br2:h-[1900px] br6:h-[2000px] br4:px-20 pt-5 br4:pt-24 overflow-hidden' id='about'>
+  return <div className='w-full h-[2700px] br5:h-[2300px] br2:h-[1900px] br6:h-[2000px] br4:px-20 pt-5 br4:pt-24 overflow-hidden' id='about'>
             <h1 className='text-blue-950 text-3xl  ml-3 w-12 h-14 border-b-[3px] border-b-[#149ddd]'>About</h1>
             <p data-aos="fade-left" className='mt-7 mb-10 ml-3 w-[95%]'>
             Hello <br></br>
@@ -45,9 +45,9 @@ const About = () => {
                     </ul>
                 </div>
             </div>
-            <div className='w-full br5:bg-white br7:mt-24 h-[800px] br2:h-[500px] br4:h-[500px] bg-blue-50'>
+            <div className='w-full br5:bg-white br7:mt-24 h-[1000px] br2:h-[700px] br4:h-[500px]'>
                 <h1 className='text-blue-950 text-3xl mt-8 ml-3 w-12 h-14 border-b-[3px] border-b-[#149ddd]'>Skills</h1>
-                <div className='mt-5 w-full br2:flex-row br2:flex-wrap h-[83%] br4:h-[70%] px-[2.5%] flex flex-col-reverse justify-between'>
+                <div className='mt-5 w-full br2:flex-row br2:flex-wrap h-[90%] br4:h-[70%] px-[2.5%] flex flex-col-reverse justify-between'>
                         {
                             skills.map(item => {
                                 return <Progressbar percent = {item.percent} name={item.name}/>
